@@ -1,0 +1,20 @@
+ALGO Test
+# test
+ENTREE toto tata
+DEBUT
+	VAR titi;
+	AFFICHER 2+3*5-(6+2/2);
+	5+6*8;
+	titi <- 5+6*8;
+	toto <- toto + 5;
+	tata <- tata + toto;
+
+	SI !(tata)
+	ALORS 
+	tata <- tata + 5;
+	FSI;
+
+	AFFICHER titi;
+	AFFICHER toto;
+	AFFICHER tata;
+FIN
